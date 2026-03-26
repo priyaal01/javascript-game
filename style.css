@@ -68,8 +68,14 @@ section{
 .board{
     border:2px solid var(--border-primary-color);
     flex-grow:1;
-    
-    
-    
+    display: grid;
+    grid-template-columns: repeat(autofill,30px);
+    grid-template-rows: repeat(autofill,30px);
+}
 
+.block{
+    width: 30px;
+    height:30px;
+    border: 1px solid var(--border-primary-color);
+    
 }
